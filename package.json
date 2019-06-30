@@ -1,5 +1,5 @@
 {
-  "name": "eslint-import-resolver-jest",
+  "name": "@touchtech/eslint-import-resolver-jest",
   "version": "2.1.1",
   "description": "🃏 Jest import resolution plugin for eslint-plugin-import",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoinColony/eslint-import-resolver-jest"
+    "url": "git+https://github.com/TouchtechAB/eslint-import-resolver-jest.git"
   },
   "keywords": [
     "eslint",
@@ -27,9 +27,9 @@
   "author": "Christian Maniewski <chmanie@fastmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JoinColony/eslint-import-resolver-jest/issues"
+    "url": "https://github.com/TouchtechAB/eslint-import-resolver-jest/issues"
   },
-  "homepage": "https://github.com/JoinColony/eslint-import-resolver-jest",
+  "homepage": "https://github.com/TouchtechAB/eslint-import-resolver-jest",
   "dependencies": {
     "find-root": "^1.0.0",
     "micromatch": "^3.1.6",
@@ -71,5 +71,8 @@
     "transform": {
       "^.+\\.js(?:\\.flow)?$": "jest-flow-transform"
     }
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
